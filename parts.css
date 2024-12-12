@@ -1,8 +1,116 @@
 /* Custom styles for the document capture process */
 vd-document::part(instructions_slide_header) {
-  display: block; /** THIS IS VERY IMPORTANT TO ENABLE THE HIDDEN ELEMENTS */
   background-color: #eb3d1e;
 }
+
+
+
+/* PRESENTACION DOCUMENTO*/
+
+
+vd-document::part(instructions_slide_box_title) {
+  color: var(--color-primary-main);
+
+}
+vd-document::part(instructions_slide_button) {
+  background: var(--color-tertiary);
+
+}
+
+vd-document::part(instructions_slide_button):hover {
+  background: var(--color-tertiary);
+  color: var(--color-neutral00);
+}
+
+/*ENSEÑAR FRENTE Y REVERSO DE DOCUMENTO*/
+vd-document::part(capture_glowing_outline_top_div	) {
+  background: var(--color-primary-main);
+
+}
+
+vd-document::part(display_message) {
+  background: var(--color-primary-main);
+  color: var(--color-neutral00);
+
+}
+
+vd-document::part(capture_display_message_success) {
+  background: var(--color-neutral00);
+  border-color: var(--color-neutral00);
+}
+
+vd-document::part(capture_display_message_text) {
+  color: var(--color-primary-main);
+}
+
+
+
+vd-document::part(capture_success_tick_circle) {
+  stroke: var(--color-tertiary); 
+  fill: white;
+
+}
+
+vd-document::part(capture_success_tick_path) {
+  stroke: var(--color-tertiary); 
+
+}
+
+	
+
+vd-document::part(capture_display_message_context) {
+  background-color: #ffffff; 
+  text-align: left; 
+  border-radius: 4px;
+
+}
+vd-document::part(capture_display_message_context) {
+  background-color: #ffffff; 
+  text-align: left; 
+  border-radius: 4px;
+
+}
+
+
+
+vd-document::part(review_image_message_buttons_repeat) {
+  background: var(--color-neutral00);
+  border-color: var(--color-neutral00);
+  color: var(--color-primary-main);
+}
+
+vd-document::part(review_image_message_buttons_continue) {
+  background: var(--color-tertiary);
+  border-color: var(--color-tertiary);
+  color: var(--color-neutral00);
+}
+
+vd-document::part(review_image_message_buttons_repeat):hover {
+  background: var(--color-neutral00);
+  border-color: var(--color-neutral00);
+  color: var(--color-primary-main);
+}
+
+vd-document::part(review_image_message_buttons_continue):hover {
+  background: var(--color-tertiary);
+  border-color: var(--color-tertiary);
+  color: var(--color-neutral00);
+}
+
+
+
+vd-document::part(instructions_slide_box_title) {
+  color: var(--color-primary-main);
+
+}
+
+
+
+
+
+
+
+
 
 
 /* SDK Document */
