@@ -46,13 +46,13 @@ vd-document::part(capture_display_message_text) {
 
 
 vd-document::part(capture_success_tick_circle) {
-  stroke: var(--color-tertiary); 
+  stroke: var(--color-primary-light); 
   fill: white;
 
 }
 
 vd-document::part(capture_success_tick_path) {
-  stroke: var(--color-tertiary); 
+  stroke: var(--color-primary-light); 
 
 }
 
@@ -64,13 +64,6 @@ vd-document::part(capture_display_message_context) {
   border-radius: 4px;
 
 }
-vd-document::part(capture_display_message_context) {
-  background-color: #ffffff; 
-  text-align: left; 
-  border-radius: 4px;
-
-}
-
 
 
 vd-document::part(review_image_message_buttons_repeat) {
@@ -99,55 +92,148 @@ vd-document::part(review_image_message_buttons_continue):hover {
 
 
 
-vd-document::part(instructions_slide_box_title) {
+vd-selfie::part(instructions_slide_box_title) {
+  color: var(--color-primary-main);
+}
+
+vd-selfie::part(instructions_slide_box_title) {
   color: var(--color-primary-main);
 
 }
+vd-selfie::part(instructions_slide_button) {
+  background: var(--color-tertiary);
 
-
-
-
-
-
-
-
-
-
-/* SDK Document */
-vd-document::part(display_message_container) {
-  background-color: #eb3d1e;
 }
 
-vd-document::part(display_message_text) {
-  color: #ffffff;
+vd-selfie::part(instructions_slide_button):hover {
+  background: var(--color-tertiary);
+  color: var(--color-neutral00);
 }
 
-vd-document::part(head_steps) {
-  color: #ffffff;
+vd-selfie::part(capture_glowing_outline_top_div	) {
+  background: var(--color-primary-main);
+
 }
 
-/* SDK Selfie */
-vd-selfie::part(display_message_container) {
-  background-color: #eb3d1e;
+vd-selfie::part(display_message) {
+  background: var(--color-primary-main);
+  color: var(--color-neutral00);
+
 }
 
-vd-selfie::part(display_message_text) {
-  color: #ffffff;
+vd-selfie::part(capture_display_message_success) {
+  background: var(--color-neutral00);
+  border-color: var(--color-neutral00);
 }
 
-vd-selfie::part(head_steps) {
-  color: #ffffff;
+vd-selfie::part(capture_display_message_text) {
+  color: var(--color-primary-main);
 }
 
-/* SDK Video */
-vd-video::part(display_message_container) {
-  background-color: #eb3d1e;
+
+
+vd-selfie::part(capture_success_tick_circle) {
+  stroke: var(--color-primary-light); 
+  fill: white;
+
 }
 
-vd-video::part(display_message_text) {
-  color: #ffffff;
+vd-selfie::part(capture_success_tick_path) {
+  stroke: var(--color-primary-light); 
+}
+vd-selfie::part(capture_glowing_outline_container_success) {
+  border-color: var(--color-primary-light); 
 }
 
-vd-video::part(head_steps) {
-  color: #ffffff;
+	
+
+vd-selfie::part(capture_display_message_context) {
+  background-color: #ffffff; 
+  text-align: left; 
+  border-radius: 4px;
+
 }
+
+vvd-selfie::part(instru) {
+  color: var(--color-primary-main);
+}
+
+
+vd-video::part(instructions_slide_box_title) {
+  color: var(--color-primary-main); 
+}
+
+vd-video::part(instructions_slide_box_subtitle) {
+  color: var(--color-neutral-80); 
+}
+
+vd-video::part(instructions_slide_button_prev) {
+  color: var(--color-primary-main); 
+}
+vd-video::part(instructions_slide_button_next) {
+  color: var(--color-primary-main); 
+}
+vd-video::part(instructions_slide_dots) {
+  background-color: var(--color-primary-main); 
+}
+
+vd-video::part(instructions_slide_button) {
+  background: var(--color-tertiary);
+
+}
+
+vd-video::part(instructions_slide_button):hover {
+  background: var(--color-tertiary);
+  color: var(--color-neutral00);
+}
+
+
+vd-video::part(capture_glowing_outline_top_div	) {
+  background: var(--color-primary-main);
+
+}
+
+vd-video::part(display_message) {
+  background: var(--color-primary-main);
+  color: var(--color-neutral00);
+
+}
+
+vd-video::part(capture_display_message_success) {
+  background: var(--color-neutral00);
+  border-color: var(--color-neutral00);
+}
+
+vd-video::part(capture_display_message_text) {
+  color: var(--color-primary-main);
+}
+
+
+
+vd-video::part(capture_success_tick_circle) {
+  stroke: var(--color-primary-light); 
+  fill: white;
+
+}
+
+vd-video::part(capture_success_tick_path) {
+  stroke: var(--color-primary-light); 
+}
+vd-video::part(capture_glowing_outline_container_success) {
+  border-color: var(--color-primary-light); 
+}
+
+	
+
+vd-video::part(capture_display_message_context) {
+  background-color: #ffffff; 
+  text-align: left; 
+  border-radius: 4px;
+
+}
+
+
+
+
+
+
