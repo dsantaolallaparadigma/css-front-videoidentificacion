@@ -54,7 +54,8 @@ vd-document::part(capture_display_message_success) {
   border-color: #ffffff;
 }
 vd-document::part(capture_display_message_text) {
-  color: #3269b3;
+ /* color: #3269b3;*/
+ text-align: center;
 }
 
 /*
@@ -130,6 +131,8 @@ vd-selfie::part(capture_display_message_text) {
 vd-selfie::part(capture_display_message_success) {
   background: #ffffff;
   border-color: #ffffff;
+  text-align: center;
+
 }
 
 /*
@@ -189,7 +192,9 @@ vd-video::part(capture_display_message_success) {
   border-color: #ffffff;
 }
 vd-video::part(capture_display_message_text) {
-  color: #3269b3;
+  /*color: #3269b3;*/
+  text-align: center;
+
 }
 /*
 vd-video::part(capture_success_tick_circle) {
