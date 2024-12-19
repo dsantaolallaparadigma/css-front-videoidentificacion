@@ -14,7 +14,7 @@
   --mm-color-neutral05: #f2f2f2;
   --mm-color-neutral20: #cccccc;
   --mm-color-neutral40: #999999;
-  --mm-color-neutral80: #2a2425;
+  --mm-color-neutral80: #61616a;
   --mm-radius-lg: 16px;
   --mm-shadow-sm: none;
   --mm-typography-body-normal-font-family: PublicSansNormal;
@@ -43,11 +43,12 @@ vd-document::part(instructions_slide_button):hover {
 
 /* ENSEÑAR FRENTE Y REVERSO DE DOCUMENTO */
 vd-document::part(capture_glowing_outline_top_div) {
-  background: #3269b3;
+  color: #3269b3;
+  background: #ffffff;
 }
 vd-document::part(display_message) {
-  background: #3269b3;
-  color: #ffffff;
+  color: #3269b3;
+  background: #ffffff;
 }
 vd-document::part(capture_display_message_success) {
   background: #ffffff;
@@ -56,7 +57,7 @@ vd-document::part(capture_display_message_success) {
 
 }
 vd-document::part(capture_display_message_text) {
-  color: #2a2425;
+  color: #61616a;
 }
 
 /*
@@ -81,7 +82,7 @@ vd-document::part(capture_glowing_outline_header_top_message) {
 }
 
 vd-document::part(review_image_message_text) {
-  color:#2a2425;
+  color:#61616a;
 }
 
 vd-document::part(review_image_message_buttons_repeat) {
@@ -126,7 +127,7 @@ vd-selfie::part(display_message) {
 }
 
 vd-selfie::part(capture_display_message_text) {
-  color: #2a2425;
+  color: #61616a;
 }
 
 vd-selfie::part(capture_display_message_success) {
@@ -194,7 +195,7 @@ vd-video::part(capture_display_message_success) {
   text-align: center;
 }
 vd-video::part(capture_display_message_text) {
-  color: #2a2425;
+  color: #61616a;
 
 
 }
