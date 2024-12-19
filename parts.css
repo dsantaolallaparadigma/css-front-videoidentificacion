@@ -1,7 +1,7 @@
 :root {
   --mm-radius-sm: 3px;
   --mm-color-tertiary: #c9337d;
-  --mm-color-neutral00: #ffffff;
+  --mm-color-neutral00: #f2f2f2;
   --mm-color-neutral80: #283c57;
   --mm-color-primary-dark: #61616a;
   --mm-color-primary-main: #3269b3;
@@ -38,26 +38,26 @@ vd-document::part(instructions_slide_button) {
 }
 vd-document::part(instructions_slide_button):hover {
   background: #c9337d;
-  color: #ffffff;
+  color: #f2f2f2;
 }
 
 /* ENSEÑAR FRENTE Y REVERSO DE DOCUMENTO */
 vd-document::part(capture_glowing_outline_top_div) {
   color: #3269b3;
-  background: #ffffff;
+  background: #f2f2f2;
 }
 vd-document::part(display_message) {
   color: #3269b3;
-  background: #ffffff;
+  background: #f2f2f2;
 }
 vd-document::part(capture_display_message_success) {
-  background: #ffffff;
-  border-color: #ffffff;
+  background: #f2f2f2;
+  border-color: #f2f2f2;
   text-align: center;
 
 }
 vd-document::part(capture_display_message_text) {
-  color: #3269b3;
+  color: #61616a;
   text-align: center;
 
 }
@@ -72,7 +72,7 @@ vd-document::part(capture_success_tick_path) {
 }
   */
 vd-document::part(capture_display_message_context) {
-  background-color: #ffffff;
+  background-color: #f2f2f2;
   text-align: center;
   border-radius: 4px;
 }
@@ -88,24 +88,24 @@ vd-document::part(review_image_message_text) {
 }
 
 vd-document::part(review_image_message_buttons_repeat) {
-  background: #ffffff;
-  border-color: #ffffff;
+  background: #f2f2f2;
+  border-color: #f2f2f2;
   color: #3269b3;
 }
 vd-document::part(review_image_message_buttons_continue) {
   background: #c9337d;
   border-color: #c9337d;
-  color: #ffffff;
+  color: #f2f2f2;
 }
 vd-document::part(review_image_message_buttons_repeat):hover {
-  background: #ffffff;
-  border-color: #ffffff;
+  background: #f2f2f2;
+  border-color: #f2f2f2;
   color: #3269b3;
 }
 vd-document::part(review_image_message_buttons_continue):hover {
   background: #c9337d;
   border-color: #c9337d;
-  color: #ffffff;
+  color: #f2f2f2;
 }
 
 /* SELFIE STYLES */
@@ -117,24 +117,24 @@ vd-selfie::part(instructions_slide_button) {
 }
 vd-selfie::part(instructions_slide_button):hover {
   background: #c9337d;
-  color: #ffffff;
+  color: #f2f2f2;
 }
 vd-selfie::part(capture_glowing_outline_top_div) {
-  background-color: #ffffff;
+  background-color: #f2f2f2;
   color: #3269b3;
 }
 vd-selfie::part(display_message) {
-  background-color: #ffffff;
+  background-color: #f2f2f2;
   color: #3269b3;
 }
 
 vd-selfie::part(capture_display_message_text) {
-  color: #3269b3;
+  color: #61616a;
 }
 
 vd-selfie::part(capture_display_message_success) {
-  background: #ffffff;
-  border-color: #ffffff;
+  background: #f2f2f2;
+  border-color: #f2f2f2;
   text-align: center;
 
 }
@@ -155,7 +155,7 @@ vd-selfie::part(capture_glowing_outline_container_success) {
 
 */
 vd-selfie::part(capture_display_message_context) {
-  background-color: #ffffff;
+  background-color: #f2f2f2;
   text-align: center;
   border-radius: 4px;
 }
@@ -181,7 +181,7 @@ vd-video::part(instructions_slide_button) {
 }
 vd-video::part(instructions_slide_button):hover {
   background: #c9337d;
-  color: #ffffff;
+  color: #f2f2f2;
 }
 vd-video::part(capture_glowing_outline_top_div) {
   background-color: #f2f2f2;
@@ -189,15 +189,15 @@ vd-video::part(capture_glowing_outline_top_div) {
 }
 vd-video::part(display_message) {
   background: #3269b3;
-  color: #ffffff;
+  color: #f2f2f2;
 }
 vd-video::part(capture_display_message_success) {
-  background: #ffffff;
-  border-color: #ffffff;
+  background: #f2f2f2;
+  border-color: #f2f2f2;
   text-align: center;
 }
 vd-video::part(capture_display_message_text) {
-  color: #3269b3;
+  color: #61616a;
 
 
 }
@@ -214,7 +214,7 @@ vd-video::part(capture_glowing_outline_container_success) {
 }
 */
 vd-video::part(capture_display_message_context) {
-  background-color: #ffffff;
+  background-color: #f2f2f2;
   text-align: center;
   border-radius: 4px;
 }
