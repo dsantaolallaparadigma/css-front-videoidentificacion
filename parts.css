@@ -68,15 +68,10 @@ vd-document::part(capture_display_message_context) {
   border-radius: 4px;
 }
 vd-document::part(capture_glowing_outline_header_top_message) {
-  background-color: #f2f2f2;
-  color: #3269b3;
+  color: #f2f2f2;
   text-align: center;
   border-radius: 3px;
 
-}
-vd-document::part(capture_glowing_outline_top_div) {
-  background: #f2f2f2;
-  border-radius: 3px;
 }
 
 vd-document::part(review_image_message_buttons_repeat) {
