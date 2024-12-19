@@ -2,15 +2,14 @@
   --mm-radius-sm: 3px;
   --mm-color-tertiary: #c9337d;
   --mm-color-neutral00: #f2f2f2;
-  --mm-color-neutral80: #283c57;
-  --mm-color-primary-dark: #61616a;
+  --mm-color-primary-dark: #283c57;
   --mm-color-primary-main: #3269b3;
   --mm-color-alert-success: #c9337d;
   --mm-color-primary-light: #00a4e3;
   --mm-color-alert-success-dark: #ecb25c;
   --mm-color-alert-error: #d63737;
   --mm-color-alert-detection: #257CD0;
-  --mm-color-alert-warning: #EB8D00;
+  --mm-color-alert-warning: #85827d;
   --mm-color-neutral05: #f2f2f2;
   --mm-color-neutral20: #cccccc;
   --mm-color-neutral40: #999999;
@@ -23,11 +22,6 @@
 }
 
 
-
-/* Custom styles for the document capture process */
-vd-document::part(instructions_slide_header) {
-  background-color: #eb3d1e;
-}
 
 /* PRESENTACION DOCUMENTO */
 vd-document::part(instructions_slide_box_title) {
@@ -57,7 +51,7 @@ vd-document::part(capture_display_message_success) {
 
 }
 vd-document::part(capture_display_message_text) {
-  color: #61616a;
+  color: #3269b3;
   text-align: center;
 
 }
@@ -108,6 +102,17 @@ vd-document::part(review_image_message_buttons_continue):hover {
   color: #f2f2f2;
 }
 
+vd-document::part(feedback) {
+  background-color: #3269b3;
+
+}
+vd-document::part(feedback_display_message_text) {
+  color: #3269b3;
+
+}
+
+
+
 /* SELFIE STYLES */
 vd-selfie::part(instructions_slide_box_title) {
   color: #3269b3;
@@ -129,7 +134,7 @@ vd-selfie::part(display_message) {
 }
 
 vd-selfie::part(capture_display_message_text) {
-  color: #61616a;
+  color: #3269b3;
 }
 
 vd-selfie::part(capture_display_message_success) {
@@ -197,7 +202,7 @@ vd-video::part(capture_display_message_success) {
   text-align: center;
 }
 vd-video::part(capture_display_message_text) {
-  color: #61616a;
+  color: #3269b3;
 
 
 }
