@@ -56,11 +56,11 @@ vd-document::part(capture_display_message_text) {
   color: #3269b3;
 }
 vd-document::part(capture_success_tick_circle) {
-  stroke: var(--color-primary-light);
+  stroke: #00a4e3;
   fill: white;
 }
 vd-document::part(capture_success_tick_path) {
-  stroke: var(--color-primary-light);
+  stroke: #00a4e3;
 }
 vd-document::part(capture_display_message_context) {
   background-color: #ffffff;
@@ -127,14 +127,14 @@ vd-selfie::part(capture_display_message_text) {
   color: #3269b3;
 }
 vd-selfie::part(capture_success_tick_circle) {
-  stroke: var(--color-primary-light);
+  stroke: #00a4e3;
   fill: white;
 }
 vd-selfie::part(capture_success_tick_path) {
-  stroke: var(--color-primary-light);
+  stroke: #00a4e3;
 }
 vd-selfie::part(capture_glowing_outline_container_success) {
-  border-color: var(--color-primary-light);
+  border-color: #00a4e3;
   background-color: white;
 }
 vd-selfie::part(capture_display_message_context) {
@@ -182,14 +182,14 @@ vd-video::part(capture_display_message_text) {
   color: #3269b3;
 }
 vd-video::part(capture_success_tick_circle) {
-  stroke: var(--color-primary-light);
+  stroke: #00a4e3;
   fill: white;
 }
 vd-video::part(capture_success_tick_path) {
-  stroke: var(--color-primary-light);
+  stroke: #00a4e3;
 }
 vd-video::part(capture_glowing_outline_container_success) {
-  border-color: var(--color-primary-light);
+  border-color: #00a4e3;
 }
 vd-video::part(capture_display_message_context) {
   background-color: #ffffff;
