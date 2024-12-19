@@ -14,6 +14,7 @@
   --mm-color-neutral05: #f2f2f2;
   --mm-color-neutral20: #cccccc;
   --mm-color-neutral40: #999999;
+  --mm-color-neutral80: #2a2425;
   --mm-radius-lg: 16px;
   --mm-shadow-sm: none;
   --mm-typography-body-normal-font-family: PublicSansNormal;
@@ -55,6 +56,8 @@ vd-document::part(capture_display_message_success) {
 vd-document::part(capture_display_message_text) {
   color: #3269b3;
 }
+
+/*
 vd-document::part(capture_success_tick_circle) {
   stroke: #00a4e3;
   fill: white;
@@ -62,6 +65,7 @@ vd-document::part(capture_success_tick_circle) {
 vd-document::part(capture_success_tick_path) {
   stroke: #00a4e3;
 }
+  */
 vd-document::part(capture_display_message_context) {
   background-color: #ffffff;
   text-align: center;
@@ -72,6 +76,10 @@ vd-document::part(capture_glowing_outline_header_top_message) {
   text-align: center;
   border-radius: 3px;
 
+}
+
+vd-document::part(review_image_message_text) {
+  color:#2a2425;
 }
 
 vd-document::part(review_image_message_buttons_repeat) {
@@ -114,13 +122,18 @@ vd-selfie::part(display_message) {
   background-color: #ffffff;
   color: #3269b3;
 }
+
+vd-selfie::part(capture_display_message_text) {
+  color: #3269b3;
+}
+
 vd-selfie::part(capture_display_message_success) {
   background: #ffffff;
   border-color: #ffffff;
 }
-vd-selfie::part(capture_display_message_text) {
-  color: #3269b3;
-}
+
+/*
+
 vd-selfie::part(capture_success_tick_circle) {
   stroke: #00a4e3;
   fill: white;
@@ -132,6 +145,8 @@ vd-selfie::part(capture_glowing_outline_container_success) {
   border-color: #00a4e3;
   background-color: white;
 }
+
+*/
 vd-selfie::part(capture_display_message_context) {
   background-color: #ffffff;
   text-align: center;
@@ -176,6 +191,7 @@ vd-video::part(capture_display_message_success) {
 vd-video::part(capture_display_message_text) {
   color: #3269b3;
 }
+/*
 vd-video::part(capture_success_tick_circle) {
   stroke: #00a4e3;
   fill: white;
@@ -186,6 +202,7 @@ vd-video::part(capture_success_tick_path) {
 vd-video::part(capture_glowing_outline_container_success) {
   border-color: #00a4e3;
 }
+*/
 vd-video::part(capture_display_message_context) {
   background-color: #ffffff;
   text-align: center;
