@@ -52,10 +52,11 @@ vd-document::part(display_message) {
 vd-document::part(capture_display_message_success) {
   background: #ffffff;
   border-color: #ffffff;
+  text-align: center;
+
 }
 vd-document::part(capture_display_message_text) {
- /* color: #3269b3;*/
- text-align: center;
+  color: #2a2425;
 }
 
 /*
@@ -125,7 +126,7 @@ vd-selfie::part(display_message) {
 }
 
 vd-selfie::part(capture_display_message_text) {
-  color: #3269b3;
+  color: #2a2425;
 }
 
 vd-selfie::part(capture_display_message_success) {
@@ -190,10 +191,11 @@ vd-video::part(display_message) {
 vd-video::part(capture_display_message_success) {
   background: #ffffff;
   border-color: #ffffff;
+  text-align: center;
 }
 vd-video::part(capture_display_message_text) {
-  /*color: #3269b3;*/
-  text-align: center;
+  color: #2a2425;
+
 
 }
 /*
