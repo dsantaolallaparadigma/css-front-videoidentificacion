@@ -98,7 +98,7 @@ vd-selfie::part(instructions_slide_button_prev) {
 vd-selfie::part(instructions_slide_button_next) {
   color: #3269b3;
 }
-vd-selfie::part(instructions_slide_button_next) {
+vd-selfie::part(instructions_slide_dots) {
   background: #3269b3;
 }
 vd-selfie::part(capture_display_message_context) {
@@ -119,7 +119,7 @@ vd-video::part(instructions_slide_button_next) {
   color: #3269b3;
 }
 vd-video::part(instructions_slide_dots) {
-  color: #3269b3;
+  background: #3269b3;
 }
 vd-video::part(instructions_slide_button) {
   background: #c9337d;
